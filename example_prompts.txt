@@ -1,0 +1,23 @@
+Example prompt for generating assignment problem from scratch:
+-------------------------
+
+I am teaching a course in control theory. This is a senior undergrad/lower-level grad course.
+I want to autogenerate questions on the topic I am teaching.
+The topic is: “State feedback control”.
+Learning outcome: Given the control problem context in natural language, students should be able to
+formulate the state space equation, and design a state feedback controller using the LQR method.
+The question should have the following parts:
+1. A natural language description of a control problem to control the position of the rotor of a DC motor.
+2. physics equations governing the DC motor.
+3. explicit requirements for the control problem.
+4. A list of specific outputs which will be graded
+5. A rubic to grade the problem
+
+--------------------------------------------------------------------------------------------
+
+
+Example prompt for generating variations on an existing problem:
+-------------------------
+The attached file has an assignment problem I gave in a previous semester. I want to you create a different
+problem with similar learning outcomes. Generate the output in a latex format which I can copy-paste into
+a latex editor.
